@@ -2,20 +2,22 @@
   "name": "clock",
   "version": "2.0.0",
   "description": "",
- 
+  "homepage": "https://Vitalina-O.github.io/my-clock",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /clock/"
+    "build": "parcel build src/*.html --public-url /my-clock/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clock.git"
+    "url": "git+https://github.com/my-clock.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clock/issues"
+    "url": "https://github.com/my-clock/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
