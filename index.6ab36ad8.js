@@ -1,0 +1,2 @@
+document.getElementById("submitButton").addEventListener("click",(function(e){e.preventDefault();const n=document.getElementById("hour").value,t=document.getElementById("minute").value,d=Math.abs(t/2+30*n-6*t);return console.log("angle",d),document.getElementById("angle").innerHTML=`${d}&#176`,n>=12&&t>0||t>59?(document.getElementById("error").innerHTML="Time is not valid",document.getElementById("angle").innerHTML="",!1):(document.getElementById("angle").innerHTML=`${d}&#176`,document.getElementById("error").innerHTML="",!0)}));
+//# sourceMappingURL=index.6ab36ad8.js.map
