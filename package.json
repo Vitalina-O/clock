@@ -1,5 +1,5 @@
 {
-  "name": "clock",
+  "name": "my-clock",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://Vitalina-O.github.io/my-clock",
@@ -26,6 +26,7 @@
     "@parcel/transformer-sass": "^2.6.0",
     "gh-pages": "^5.0.0",
     "parcel": "^2.6.0",
+    "parcel-plugin-nuke-dist": "^1.0.1",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
